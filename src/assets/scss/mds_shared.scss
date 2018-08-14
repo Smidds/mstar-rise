@@ -1,0 +1,16 @@
+$mds-font-asset-path: '~morningstar-design-system/dist/fonts/';
+
+// MDS Constants
+@import '~morningstar-design-system/constants/constants';
+
+// MDS Utils
+@import '~morningstar-design-system/styles/utils/accessibility';
+
+// MDS Visual Language
+@import '~morningstar-design-system/styles/visual-language/color';
+@import '~morningstar-design-system/styles/visual-language/fonts';
+@import '~morningstar-design-system/styles/visual-language/size';
+@import '~morningstar-design-system/styles/visual-language/shape';
+@import '~morningstar-design-system/styles/visual-language/borders';
+@import '~morningstar-design-system/styles/visual-language/typography';
+@import '~morningstar-design-system/styles/visual-language/layering';
