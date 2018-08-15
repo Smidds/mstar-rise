@@ -6,9 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "aws s3 sync ./dist s3://mstar-rise"
+    "deploy": "vue-cli-service build; aws s3 sync ./dist s3://mstar-rise"
   },
   "dependencies": {
+    "highcharts": "^6.1.1",
     "morningstar-design-system": "^2.3.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"

@@ -42,6 +42,9 @@ export default {
       type: Object,
       required: true
     }
+  },
+  created() {
+    scroll(0, 0);
   }
 };
 </script>
